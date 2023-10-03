@@ -12,6 +12,7 @@
     --light-grey: rgb(230, 230, 235);
     /* images */
     --start-img: url(/images/upper_section_img.png);
+    --doodle-img: url(/images/doodle.svg);
 }
 
 html {
@@ -169,6 +170,8 @@ input {
 
 .solutions_section {
     max-height: 68.75rem;
+    background: var(--doodle-img) no-repeat;
+    background-position-y: 62rem;
     background-color: var(--light-bg);
 }
 
@@ -196,6 +199,7 @@ input {
 }
 
 .solutions_section__wrapper-bottom {
+    margin-bottom: 14rem;
     background-color: var(--clear);
     display: flex;
     justify-content: space-between;
@@ -296,14 +300,43 @@ input {
     top: 3.5rem; left: 1.5rem;
 }
 
-.solutions_section__bottom-doodle {
-    background-color: var(--clear);
-    position: relative;
-    top: 3.3rem;
-    clip-path: inset(0 0 3.05rem 0);
-}
-
 .together_place_section {
     max-height: 68.75rem;
+    background: var(--doodle-img) no-repeat;
+    clip-path: inset(0 0 0 7rem);
+    background-position-y: -6.8rem;
     background-color: var(--white);
+}
+
+.together_place_section__wrapper {
+    margin: 0 9rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: var(--clear);
+}
+
+together_place_section__wrapper-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.together_place_section__wrapper-left__bold-text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62px;
+    font-weight: 600;
+    margin-top: 1rem;
+    max-width: 47rem;
+}
+
+.together_place_section__wrapper-left__thin-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 32rem;
+    line-height: 150%;
 }
