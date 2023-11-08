@@ -315,6 +315,7 @@ input {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     background-color: var(--clear);
+    align-items: center;
 }
 
 together_place_section__wrapper-left {
@@ -327,7 +328,7 @@ together_place_section__wrapper-left {
     font-family: 'Work Sans', sans-serif;
     font-size: 62px;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 7rem;
     max-width: 47rem;
 }
 
@@ -335,8 +336,16 @@ together_place_section__wrapper-left {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
     max-width: 32rem;
     line-height: 150%;
+}
+
+.together_place_section__wrapper-right__card_bg {
+    min-height: 40.5rem;
+    min-width: 40rem;
+    background-color: var(--light-bg);
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
