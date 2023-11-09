@@ -343,9 +343,93 @@ together_place_section__wrapper-left {
 }
 
 .together_place_section__wrapper-right__card_bg {
-    min-height: 40.5rem;
+    height: 40.5rem;
     min-width: 40rem;
     background-color: var(--light-bg);
     margin-top: 10rem;
+    margin-top: 4rem;
     margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.together_place_section__wrapper-right__root-subcard {
+    min-height: 6.8rem;
+    min-width: 34rem;
+    background-color: var(--white);
+    border-radius: .3rem;
+    margin-top: 6rem;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: var(--clear);
+    align-content: center;
+    margin: 2rem 2.5rem 2rem;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: var(--clear);
+    align-items: start;
+    min-height: 3.5rem;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper-right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: var(--clear);
+    align-items: end;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper-left__grey-bar {
+    min-height: 1rem;
+    min-width: 10rem;
+    background-color: var(--light-grey);
+    border-radius: .5rem;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper-left__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper-right__text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 15rem;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper-right__text-bottom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper-right__left-bar-grey-bg {
+    min-height: 1rem;
+    min-width: 14.5rem;
+    background-color: var(--light-grey);
+    border-radius: .5rem;
+    margin-right: .5rem;
+}
+
+.together_place_section__wrapper-right__root-subcard__wrapper-right__left-bar-blue {
+    min-height: 1rem;
+    max-width: 10rem;
+    background-color: var(--blue);
+    border-radius: .5rem;
 }
